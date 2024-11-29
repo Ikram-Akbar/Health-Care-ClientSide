@@ -34,6 +34,7 @@ const theme = createTheme({
             },
             styleOverrides: {
                 root: {
+                    padding:"8px 24px",
                     borderRadius: 8,
                     textTransform: 'none',
                 },
@@ -91,5 +92,6 @@ const theme = createTheme({
         },
     },
 });
+theme.shadows[1] = "0px 5px 22px lightgray";
 
 export default theme;

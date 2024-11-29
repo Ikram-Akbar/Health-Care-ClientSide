@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div>
       <h1>Home page ! MY NEXT JS</h1>
-      <Button variant="contained">Contained</Button>
+      <Button>Contained</Button>
     </div>
   );
 };
